@@ -1,0 +1,22 @@
+[project]
+name = "butter-cup"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pboisver", email = "pboisver@umich.edu"},
+]
+dependencies = [
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "flake8>=6.0.0",
+]
