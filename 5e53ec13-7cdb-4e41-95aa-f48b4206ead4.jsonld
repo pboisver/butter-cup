@@ -1,0 +1,119 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    "https://w3id.org/ro/terms/earth-science#",
+    {
+      "title": "http://purl.org/dc/terms/title",
+      "creation_mode": "http://w3id.org/ro-id/rohub/model#creation_mode",
+      "w4ever": "http://purl.org/wf4ever/wf4ever#"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "identifier": "https://w3id.org/ro-id/5e53ec13-7cdb-4e41-95aa-f48b4206ead4",
+      "hasPart": [],
+      "@type": [
+        "Dataset",
+        "http://purl.org/wf4ever/wf4ever#ResearchObject"
+      ],
+      "creator": [
+        "https://orcid.org/0000-0002-1784-2920"
+      ],
+      "author": [
+        "https://orcid.org/0000-0002-1784-2920"
+      ],
+      "studySubject": [
+        "http://eurovoc.europa.eu/3949"
+      ],
+      "citeAs": "Fouilloux, Anne. \"FAIR Climate Risk Data for Businesses.\" ROHub. Mar 08 ,2025. https://w3id.org/ro-id/5e53ec13-7cdb-4e41-95aa-f48b4206ead4.",
+      "datePublished": "2025-03-08 16:08:42.827750+00:00",
+      "dateCreated": "2025-03-08 16:08:42.827750+00:00",
+      "dateModified": "2025-04-08 13:19:42.725365+00:00",
+      "contributor": [],
+      "name": "FAIR Climate Risk Data for Businesses",
+      "description": "# Improving data availability for climate risk assessments under the EU taxonomy for sustainable activities\n\n## Vision & Ambitions\nIn this case study, we want to:\n\n1) Provide insights into data used and needed by businesses and consultants to perform climate risk assessments for reporting under the EU taxonomy for sustainable activities; \n\n2) Collect local climate hazard data that is being used in such analyses; \n\n3) improve accessibility to key datasets for climate risk analyses under the EU taxonomy.\n\n## Description \nClimate risk analyses under the EU taxonomy for sustainable activities (Pan-European)\n\nMore and more companies in the EU are required to report on how their economic activities are contributing to the six environmental objectives of the EU taxonomy for sustainable activities. In this context, the Commission Delegated Regulation (EU) 2021/2178 requires companies to perform climate risk assessment for two possible purposes: to show that an economic activity is contributing to climate change adaptation (environmental objective #2) or to check whether an activity that contributes to another objective will do so even under a changing climate (do-no-significant-harm check). The regulation has detailed requirements that a climate risk analysis needs to fulfil, e.g. climate projections at the smallest appropriate scale and at least 28 different climate hazards need to be considered. Experience shows that business as well as consultants are struggling with the very demanding requirements and the very parcelled climate hazard data landscape.\n\nWhile there is a lot of data available on the 28 climate-related hazards that businesses need to analyse, data is not tagged / structured in a way that users can easily find it. Many businesses have operations across different EU countries which makes it even more challenging to conduct a harmonised assessment for all relevant locations and at the most appropriate local scale. Furthermore, many businesses will be required to prepare an adaptation plan that includes adaptation measures and is in line with local, regional and national adaptation strategies.\n\n## FAIR2Adapt Contribution\nBy accompanying two businesses in preparing climate risk assessments as part of their EU taxonomy reporting, will provide an overview on the sources that are being used for the assessments, from local to national to European sources. Furthermore, we shall document important data gaps and highlight possible difficulties when combining the different datasets during the assessments, e.g. problems because of different temporal or spatial scales. Guided by approaches from WP 3 to 5, strategies to make the most valuable data FAIR, using a vocabulary that is consistent with the requirements in the EU taxonomy, will be developed.\n\n## Lead Partner\nADELPHI\n\n## External Stakeholders involved in CCA\nTwo businesses that have operations in multiple EU countries, and have to report under the EU taxonomy.",
+      "contentSize": 0,
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://api.rohub.org/api/ros/5e53ec13-7cdb-4e41-95aa-f48b4206ead4/crate/download/",
+      "license": {
+        "@id": "https://choosealicense.com/no-permission/"
+      },
+      "http://w3id.org/ro-id/rohub/model#creation_mode": "MANUAL",
+      "http://w3id.org/ro-id/rohub/model#community": "3305e51c-33ff-4259-9a33-35e2bf4a385e",
+      "https://w3id.org/contentdesc#Domain": [
+        "https://w3id.org/ro-id/6b9d520e-7c8b-47ac-a064-c6f5d2ee4053",
+        "https://w3id.org/ro-id/898e07a8-7734-447c-9076-0f28c0747109",
+        "https://w3id.org/ro-id/d5fb5991-cb14-4100-8ae0-cfe73019470a",
+        "https://w3id.org/ro-id/664bef26-ec99-41e6-bfaa-0490f74ff924"
+      ],
+      "https://w3id.org/contentdesc#Organization": "https://w3id.org/ro-id/8d61e4f4-214b-44eb-8b52-f0f5261a0cab",
+      "https://w3id.org/ro/terms/earth-science#Concept": [
+        "https://w3id.org/ro-id/a94f6767-14b9-402c-8670-925c4c9713ba",
+        "https://w3id.org/ro-id/3f446811-2b82-4475-be13-02f73cd7044a",
+        "https://w3id.org/ro-id/a1441b68-6b7e-4dac-9c30-5ba64c1fd435",
+        "https://w3id.org/ro-id/483f7ce8-3fa1-4be8-9fdf-1af805202e15",
+        "https://w3id.org/ro-id/4e98c92c-ba73-48d7-95c1-aa96883b5124",
+        "https://w3id.org/ro-id/a59786cb-a320-4e9a-99ea-202ac76a343a",
+        "https://w3id.org/ro-id/c25c93b6-4295-4bc4-b152-e4c5a7c68339",
+        "https://w3id.org/ro-id/bee22383-5673-4121-bac5-7c5c55a1e9c2",
+        "https://w3id.org/ro-id/9af3b6f2-071d-4687-acbb-c96d6add4cfc",
+        "https://w3id.org/ro-id/f8579f87-6c0a-4514-875e-6e09879304be",
+        "https://w3id.org/ro-id/4d13a281-a6c9-429e-aa70-b1930741df81",
+        "https://w3id.org/ro-id/6c638f03-8c18-4f71-b803-c6f842d3d24a",
+        "https://w3id.org/ro-id/3bdd67f9-46fa-4518-904c-4d43e37a3fac",
+        "https://w3id.org/ro-id/9fe42bd6-81c3-42cf-a403-d15084cb3a83"
+      ],
+      "https://w3id.org/ro/terms/earth-science#FieldOfResearch": [
+        "https://w3id.org/ro-id/d0df74b6-3b58-4862-a034-7596b25183b6",
+        "https://w3id.org/ro-id/6155566c-2048-4c8f-a3da-fdbb42915474"
+      ],
+      "https://w3id.org/ro/terms/earth-science#IPTC": [
+        "https://w3id.org/ro-id/66607628-6711-4175-b02c-f4347c847954",
+        "https://w3id.org/ro-id/9b7aaf6d-8d9f-4435-81ae-664fd290ffa5",
+        "https://w3id.org/ro-id/a0687799-9e13-4f74-bfa4-8ae742af8594",
+        "https://w3id.org/ro-id/f321daf7-56aa-44ce-bc83-7fb2d6d252c7"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Lemma": [
+        "https://w3id.org/ro-id/93bdee76-29a0-4356-9742-9986f3d55af2",
+        "https://w3id.org/ro-id/5888d011-b904-4c16-914d-cc753a21996e",
+        "https://w3id.org/ro-id/e06f2471-960f-4813-8243-2132c119fd6b",
+        "https://w3id.org/ro-id/7a230af7-094d-4116-9f50-3847e3c6dbdf",
+        "https://w3id.org/ro-id/22975562-f8be-4635-97cc-19be36897386"
+      ],
+      "https://w3id.org/ro/terms/earth-science#NASA": [
+        "https://w3id.org/ro-id/fd8f2abd-a286-4c60-a03f-150ad044e672",
+        "https://w3id.org/ro-id/42d678c1-ed1e-45fb-a1f3-4be06ca03ddc"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Phrase": [
+        "https://w3id.org/ro-id/7921d1af-7d91-4e61-890f-2b959ca399c2",
+        "https://w3id.org/ro-id/c19755ea-510a-4ecf-87f3-cbf5715ce11e",
+        "https://w3id.org/ro-id/2879b0d8-5a83-4832-847b-218dd24f4dc0",
+        "https://w3id.org/ro-id/1e923344-a06a-4b5e-a642-4050932f5ff3",
+        "https://w3id.org/ro-id/7f96db49-59e2-4463-ae74-c48ac6ede9b4",
+        "https://w3id.org/ro-id/ab81bc5f-5456-4259-b370-cb53e7c0d606"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Sentence": [
+        "https://w3id.org/ro-id/e9de7166-276b-4ada-85a6-2fde4966ca5d",
+        "https://w3id.org/ro-id/0b113e1a-91fd-4a0f-ab41-f17c7b369c3e",
+        "https://w3id.org/ro-id/e8ec06e4-67ad-40b0-96cb-4978e73bd8df"
+      ],
+      "modifiedTime": "2025-04-08 13:19:42.725365+00:00"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1784-2920",
+      "name": "Anne Fouilloux",
+      "@type": "Person"
+    }
+  ]
+}

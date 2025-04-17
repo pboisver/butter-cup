@@ -1,0 +1,131 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    "https://w3id.org/ro/terms/earth-science#",
+    {
+      "title": "http://purl.org/dc/terms/title",
+      "creation_mode": "http://w3id.org/ro-id/rohub/model#creation_mode",
+      "w4ever": "http://purl.org/wf4ever/wf4ever#"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "identifier": "https://w3id.org/ro-id/1e8f4e6d-43d5-440e-81f5-e9262ed4819a",
+      "hasPart": [],
+      "@type": [
+        "Dataset",
+        "http://purl.org/wf4ever/wf4ever#ResearchObject"
+      ],
+      "creator": [
+        "https://orcid.org/0000-0002-3489-268X"
+      ],
+      "author": [
+        "mailto:fantina.madricardo@ve.ismar.cnr.it"
+      ],
+      "studySubject": [
+        "http://eurovoc.europa.eu/3949"
+      ],
+      "citeAs": "Fantina Madricardo. \"MAELSTROM: Software and hardware tracking platform for marine litter data tracking, monitoring and sharing.\" ROHub. Mar 13 ,2025. https://w3id.org/ro-id/1e8f4e6d-43d5-440e-81f5-e9262ed4819a.",
+      "datePublished": "2025-03-13 15:20:25.704141+00:00",
+      "dateCreated": "2025-03-13 15:20:25.704141+00:00",
+      "dateModified": "2025-04-07 13:22:12.782138+00:00",
+      "contributor": [],
+      "name": "MAELSTROM: Software and hardware tracking platform for marine litter data tracking, monitoring and sharing",
+      "description": "The MAELSTROM project provided a new set of integrated and advanced solutions to identify the typology of marine litter and foremost its traceability from the collection to the treatment phase through innovative app and portal. The Project developed a software and hardware tracking platform for ML data mining and sharing to narrate the in-field organization and testing of marine litter tracking, monitoring and clean up activities.",
+      "contentSize": 1795,
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://api.rohub.org/api/ros/1e8f4e6d-43d5-440e-81f5-e9262ed4819a/crate/download/",
+      "license": {
+        "@id": "https://choosealicense.com/no-permission/"
+      },
+      "http://w3id.org/ro-id/rohub/model#creation_mode": "MANUAL",
+      "keywords": [
+        "maelstrom project",
+        "tracking",
+        "monitoring",
+        "marine litter"
+      ],
+      "http://w3id.org/ro-id/rohub/model#community": "f04bc8e9-07b9-46db-a96a-81848a939de4",
+      "https://w3id.org/contentdesc#Domain": [
+        "https://w3id.org/ro-id/393bda21-7700-47cd-938b-51dfdd095b17",
+        "https://w3id.org/ro-id/79d80f1f-9477-4876-ad1f-78b7447b8294",
+        "https://w3id.org/ro-id/138fd397-b65f-4af6-a557-efa6a96d9b73",
+        "https://w3id.org/ro-id/370b380e-c5bc-43db-931b-101ddf5bede5"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Concept": [
+        "https://w3id.org/ro-id/eb713962-4094-4ce2-a2bf-b2a70eb0c53f",
+        "https://w3id.org/ro-id/7d978899-d2dd-4a9f-8743-52998dc1b003",
+        "https://w3id.org/ro-id/0799ed4f-f491-40f6-b2b9-f8c80704677c",
+        "https://w3id.org/ro-id/9b2306ce-e41a-4bcc-bdd1-5b38676c93fe",
+        "https://w3id.org/ro-id/f7e12c21-9663-4f5c-942e-9b23025a449a",
+        "https://w3id.org/ro-id/81f4f782-3aee-4d14-bcce-55b32d7c4983",
+        "https://w3id.org/ro-id/4e276942-7791-46d7-8d3c-b0f3a70d3535",
+        "https://w3id.org/ro-id/15e26d39-d454-4ef2-9824-1afd7094ee50",
+        "https://w3id.org/ro-id/9d90ab19-6e04-44e2-b8fe-794c560e427f",
+        "https://w3id.org/ro-id/54c282d2-d10a-4a66-ada2-32f20590ec2e",
+        "https://w3id.org/ro-id/bc361caa-6905-4a09-a5c3-a69602927acb",
+        "https://w3id.org/ro-id/b8e76aef-2f0f-4fac-b7af-d6d4181d0720",
+        "https://w3id.org/ro-id/7d482d36-8c08-4a3b-9337-0063ac40534c"
+      ],
+      "https://w3id.org/ro/terms/earth-science#FieldOfResearch": [
+        "https://w3id.org/ro-id/ab5656f0-b8d1-4266-bcff-41709229473f",
+        "https://w3id.org/ro-id/656866ce-cc2c-437f-ad2f-2ea93cc222ad"
+      ],
+      "https://w3id.org/ro/terms/earth-science#IPTC": [
+        "https://w3id.org/ro-id/7b06a342-402e-4d18-a90e-40a4fca81e68",
+        "https://w3id.org/ro-id/bd3bfff9-96e1-43dd-9b33-3c2a05d4803d",
+        "https://w3id.org/ro-id/473611d3-7845-4df3-8860-8a71f7311d1f",
+        "https://w3id.org/ro-id/82eee916-bff3-43f8-b945-18611f61a0cd"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Lemma": [
+        "https://w3id.org/ro-id/d12694a4-6679-40d1-b622-6b5dc6943e05",
+        "https://w3id.org/ro-id/4fe71fff-ee4b-4c77-8538-c39890b63f59",
+        "https://w3id.org/ro-id/65f2a33f-aa85-4504-8424-c11568a2024e",
+        "https://w3id.org/ro-id/2cc52c01-b002-4446-8dce-e57e6cd4c95f",
+        "https://w3id.org/ro-id/71ed1c4c-2e02-4ef8-b6c1-00666d5dbac7",
+        "https://w3id.org/ro-id/e61e9abb-21e3-4790-9ed1-1b6ec0e95df0",
+        "https://w3id.org/ro-id/172cf2cf-2901-4e45-a8a0-ed73b56c5eb1"
+      ],
+      "https://w3id.org/ro/terms/earth-science#NASA": [
+        "https://w3id.org/ro-id/b45e87f1-f958-4617-b149-091f3a3e2a3f",
+        "https://w3id.org/ro-id/23ebd2e3-2405-4d95-9a87-ce52bf5f7a7c"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Phrase": [
+        "https://w3id.org/ro-id/d78723b7-d1ee-4c20-b88f-e40c5ce6e804",
+        "https://w3id.org/ro-id/0e810c8f-2959-4943-998e-4a8fbdc32c1e",
+        "https://w3id.org/ro-id/1e11e4ff-ecd8-4c77-b17e-6ae28b09d943",
+        "https://w3id.org/ro-id/8b1d1367-6411-4105-8875-b0a2b88a7858",
+        "https://w3id.org/ro-id/9e3ba626-9af5-42e0-97b4-5f12efc5ff2a"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Sentence": [
+        "https://w3id.org/ro-id/eb393d8a-5c5b-4d9f-8a9e-0f37c991c8c3",
+        "https://w3id.org/ro-id/b2ef018e-cf29-4c37-82a0-ddb47cc7d7d3",
+        "https://w3id.org/ro-id/d124db21-ab33-433d-8e6e-dc3219b42501"
+      ],
+      "modifiedTime": "2025-04-07 13:22:12.782138+00:00"
+    },
+    {
+      "@id": "mailto:fantina.madricardo@ve.ismar.cnr.it",
+      "affiliation": "CNR ISMAR",
+      "@type": "Person",
+      "email": "fantina.madricardo@ve.ismar.cnr.it",
+      "name": "Fantina Madricardo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3489-268X",
+      "name": "Valentina Grande",
+      "@type": "Person"
+    }
+  ]
+}
